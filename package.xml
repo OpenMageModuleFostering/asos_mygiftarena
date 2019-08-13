@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Asos_Mygiftarena</name>
+    <version>1.0.1</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>MyGiftArena Voucher extension allows online vendors to accept payment from customers with MyGiftArena Voucher</summary>
+    <description>MyGiftArena vouchers proffer wow solutions to whatever gifting challenges loved ones may have. There's no need to guess what they want: with MyGiftArena vouchers, they can choose whatever their heart desires from our enormous selection of vendors. &#xD;
+&#xD;
+Our gift voucher gives your family and friends the opportunity to get what they want. Our numerous vendors ensures that regardless of age, interest, hobbies or desire there is always something to buy. </description>
+    <notes>Bugs fixed</notes>
+    <authors><author><name>Nekon James</name><user>NekonJames</user><email>breantech@yahoo.com</email></author></authors>
+    <date>2015-11-07</date>
+    <time>21:22:51</time>
+    <contents><target name="magecommunity"><dir name="Asos"><dir name="Mygiftarena"><dir name="Block"><file name="Payment.php" hash="4cd7a644a4f0506f8ca9fb649a189d69"/></dir><dir name="Helper"><file name="Data.php" hash="62d45fa2cc6772d28e2d482384f5dc1d"/></dir><dir name="Model"><file name="payment.php" hash="f4bc6f8c5fe2bed605d0d54dc04d006f"/></dir><dir name="controllers"><file name="PaymentController.php" hash="cf69295c7304dfb39f3d2ef5a7623dc1"/></dir><dir name="etc"><file name="config.xml" hash="c5b0032aa6ef43aa7f90dc6915ba70bd"/><file name="system.xml" hash="89bceb03219f632a69e031d3bf79617f"/></dir><dir name="sql"><dir name="voucherpayment_setup"><file name="install-1.0.0" hash="48188938cbde211376a44b67cf642e9b"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Asos_Mygiftarena.xml" hash="6922ff9dacb31d91ec1f5dee3db16e0b"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="mygiftarena"><file name="redirect.phtml" hash="73f77c7ef06d7b098702dd6c69b5fa63"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

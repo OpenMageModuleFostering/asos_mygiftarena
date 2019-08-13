@@ -1,0 +1,17 @@
+<?php
+// Retrieve order
+    $_order = new Mage_Sales_Model_Order();
+    $orderId = Mage::getSingleton('checkout/session')->getLastRealOrderId();
+    $_order->loadByIncrementId($orderId);
+    $merchantId = Mage::getStoreConfig('payment/mygiftarena/merchant_id');
+    $gatewayUrl = Mage::getStoreConfig('payment/mygiftarena/submit_url');
+?>
+<form name="voucherpaymentform" method="post" action="<?=$gatewayUrl?>">
+    <input type="hidden" name="x_orderID" value="<?=$orderId;?>">
+    <input type="hidden" name="x_merchantID" value="<?=$merchantId; ?>">
+    <input type="hidden" name="x_amount" value="<?=$_order->getBaseGrandTotal(); ?>">    
+</form>
+
+<script type="text/javascript">
+    document.voucherpaymentform.submit();
+</script>
