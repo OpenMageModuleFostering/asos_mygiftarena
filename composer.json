@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Asos_Mygiftarena",
+    "name": "openmage-module-fostering\/asos_mygiftarena",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "MyGiftArena Voucher extension allows online vendors to accept payment from customers with MyGiftArena Voucher",
     "authors": [
